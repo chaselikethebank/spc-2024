@@ -8,12 +8,15 @@
   --hot-green: #c3fac2;
   --text-black: #333;
   --accent-2: rgb(0, 122, 204, 0.3);
-  --lemon-100: #f7fbe3; /* Lightest */
-  --lemon-200: #f0f8c6;
-  --lemon-300: #e9fc9e;
-  --lemon-500: #e9fc6b; /* Base color */
-  --lemon-700: #d3e03e;
-  --lemon-900: #a4af20; /* Darkest */
+  --lemon-100: #f8fce5; /* Lightest */
+  --lemon-200: #f2f9c7;
+  --lemon-300: #ebfd9f;
+  --lemon-400: #eefa75; /* New variation */
+  --lemon-500: #e7fd39; /* Base color */
+  --lemon-600: #c9d32d; /* New variation */
+  --lemon-700: #a0ab25; /* New variation */
+  --lemon-800: #7a811f; /* New variation */
+  --lemon-900: #4c5114; /* Darkest */
 
   --grey-100: #f5f5f5;
   --grey-200: #eeeeee;
@@ -434,12 +437,65 @@ h6,
 
 .badge-secondary {
   background-color: #333;
-  color: white;
+  color: var(--lemon-500);
   border: 3px solid #333;
 }
 
 .day-2 {
   background-color: #333 !important;
-  color: white !important;
+  color: var(--lemon-500) !important;
   border: 3px solid #333 !important;
+}
+
+.hero--img {
+  max-width: 240px;
+  max-width: 90%;
+  height: auto;  
+  overflow-x: hidden;
+
+}
+
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+.container {
+  line-height: 1.4;
+  text-align: center;
+  padding: 44px;
+  color: #333;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 18px;
+}
+p small {
+  font-size: 80%;
+  color: #666;
+}
+
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: var(--lemon-500);
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
 }
