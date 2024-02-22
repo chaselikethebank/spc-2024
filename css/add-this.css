@@ -170,10 +170,14 @@
 }
 
 .twmc--btn:hover,
-a:hover {
-  background-color: var(--lemon-500);
-  color: black;
+a:hover,a:focus, a:active {
+  background-color: inherit;
+  color: #333 !important;
+  border-color: #333 !important;
+
 }
+
+ 
 
 .body {
   background-color: #000;
@@ -502,13 +506,7 @@ p small {
   padding: 10px 3px 3px 10px;
 }
 
-/* .backdrop-filter{
-    background: rgba(255,255,255,0.05);
-    box-shadow:  0 15px 25px rgba(0,0,0, 0.1);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-} */
+
 
 .border-bottom {
   background-color: white !important;
@@ -522,3 +520,111 @@ color: #333;
 border-top: 3px solid #333 !important;
 }
 
+/* start css for the google nav */
+
+
+.navbar-spc {
+  position: fixed;
+  bottom: 2rem;
+  width: calc(100% - 23rem);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .75rem;
+  box-sizing: border-box;
+  border-radius: 10rem;
+}
+
+.navbar-spc a {
+  color: var(--lemon-500);
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 30rem;
+  margin: 0 auto;
+}
+
+.google-nav-link, .google-nav-link:hover{
+  background-color: inherit;
+  
+  border-color: #333 !important;
+}
+
+.navbar-spc a.active {
+  background-color: white;
+  color: #333 !important;
+  /* border: 1px solid rgb(0, 255, 64); */
+}
+
+ 
+
+@media (max-width: 992px) {
+  .navbar-spc {
+       width: calc(100% - 4rem) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-spc {
+      flex-direction: column;
+      width: 50%;
+      height: 70%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #333;
+      border-radius: 4rem;
+      display: none;
+      color: white;
+  }
+
+  .hamburger {
+      display: block;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      cursor: pointer;
+      z-index: 2;
+      width: 100%;
+      padding: .5rem;
+      border-radius: 0px;;
+
+  }
+
+  .hamburger div {
+      width: 25px;
+      height: 4px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.4s;
+  }
+
+  .navbar-spc a {
+      display: none;
+  }
+
+  .navbar-spc.show {
+       
+      background-color: #333;
+      z-index: 3;
+  }
+
+  .navbar-spc.show a {
+      display: block;
+  }
+}
+
+
+
+/* end css for google nav */
+
+.backdrop-filter{
+  background: rgba(255,255,255,0.05);
+  box-shadow:  0 15px 25px rgba(0,0,0, 0.1);
+  /* border-radius: 20px; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
