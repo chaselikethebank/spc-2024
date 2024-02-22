@@ -241,7 +241,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(390deg, var(--lemon-200), white),
+  background: linear-gradient(360deg, var(--lemon-500), white),
     linear-gradient(to right, #6b59e9, white, #6b59e9),
     linear-gradient(to bottom, white, white, white);
 }
@@ -423,6 +423,24 @@ h6,
   font-size: 1.5em;
 }
 
+.border-bottom {
+  
+    background-color: white !important;
+    color: #333;
+    border-bottom: 3px solid #333 !important;
+
+ 
+}
+
+.border-top {
+  
+  background-color: white !important;
+  color: #333;
+  border-top: 3px solid #333 !important;
+
+
+}
+
 .badge-primary {
   background-color: white;
   color: #333;
@@ -499,3 +517,11 @@ p small {
   border-radius: 20% 25% 20% 24%;
   padding: 10px 3px 3px 10px;
 }
+
+/* .backdrop-filter{
+    background: rgba(255,255,255,0.05);
+    box-shadow:  0 15px 25px rgba(0,0,0, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+} */
