@@ -423,23 +423,7 @@ h6,
   font-size: 1.5em;
 }
 
-.border-bottom {
-  
-    background-color: white !important;
-    color: #333;
-    border-bottom: 3px solid #333 !important;
 
- 
-}
-
-.border-top {
-  
-  background-color: white !important;
-  color: #333;
-  border-top: 3px solid #333 !important;
-
-
-}
 
 .badge-primary {
   background-color: white;
@@ -525,3 +509,16 @@ p small {
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
 } */
+
+.border-bottom {
+  background-color: white !important;
+  color: #333;
+  border-bottom: 3px solid #333 !important;
+}
+
+.border-top {
+background-color: white !important;
+color: #333;
+border-top: 3px solid #333 !important;
+}
+
