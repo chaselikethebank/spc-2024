@@ -524,6 +524,10 @@ border-top: 3px solid #333 !important;
   color: var(--lemon-500) !important;
 }
 
+.no-hover-color {
+  color: var(--lemon-500) !important;
+}
+
 
 /* end css for google nav */
 
@@ -567,3 +571,52 @@ border-top: 3px solid #333 !important;
 
   }
 }
+
+.hero-bg {
+  background-image: url("../public/DIS_SingleParentConference_FeatureBanner_2000x800.jpg");
+  background-size: cover;   
+  background-position: center;  
+  max-width: 100%;  
+  min-height: 50vh; 
+}
+
+.spacer {
+  min-height: 1rem;
+}
+
+.h3-hero {
+  font-size: smaller;
+}
+
+/* Additional styles for larger screens */
+@media screen and (min-width: 768px) {
+  .hero-bg {
+    min-height: 50vh;   
+  }
+
+  .spacer {
+    min-height: 4rem;
+  }
+
+  .h3-hero {
+    font-size: large;
+  }
+}
+
+.twmc-h6 {
+  font-size: 14px
+}
+
+@media screen and (max-width: 768px) {
+  .h4 {
+    font-size: 14px;
+
+  }
+}
+
+.bg-lightning-repeat{
+  background-image: url(../public/Bolt_Faded.svg);
+  background-repeat: repeat;
+  background-size: auto;  /* Adjust this based on your pattern image size */
+}
+

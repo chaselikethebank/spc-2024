@@ -471,14 +471,27 @@
     <!-- https://rockrms-assets.s3.us-east-2.amazonaws.com/images/_feature-banners/MAR_MAP+Feature+Banner+TEXT.png -->
     <!-- Hero - Home Image -->
     <section id="" class="  " style="background-color: #fafafa">
-      <div class="container">
+      <div
+        class="container-fluid hero-bg d-flex flex-column align-items-center justify-content-center"
+      >
         <img
-          src="public/recharge-logo.png"
-          class="img-fluid"
-          alt="Responsive Hero Image"
-          style="max-width: 100%; height: auto"
+          src="./public/DIS_SingleParentConference_TextOverlay.png"
+          style="max-width: 70%"
         />
+        <h3 class="h3-hero">April 19th and 20th, 2024</h3>
+
+        <a
+          href="https://www.thewoodlandsmethodist.org/event?EventOccurrenceId=2203"
+          class="badge badge-primary p-2 px-3 filter-button"
+          target="_blank"
+          style="font-size: 14px"
+        >
+          BUY TICKETS
+        </a>
+
+        <div class="spacer"></div>
       </div>
+
       <div class="vh-0" style="display: flex; flex-direction: row-reverse">
         <img
           src="https://s3.us-east-2.amazonaws.com/rockrms-assets/icons/starish.png "
@@ -506,21 +519,6 @@
                     allowfullscreen=""
                   ></iframe>
                 </div>
-                <div class="push hidden-sm hidden-xs">
-                  <a
-                    href="https://www.thewoodlandsmethodist.org/event?EventOccurrenceId=2203"
-                    class="twmc--btn lemon-400"
-                    target="_blank"
-                    >BUY TICKETS ></a
-                  >
-                  <p class="mt-2">
-                    <em
-                      >Register today to be a part of this powerful event. Your
-                      information will be kept private. Registering does not
-                      mean you sign up for email subscriptions.</em
-                    >
-                  </p>
-                </div>
               </div>
               <div class="flex-item-2col mar-map-intro--desc mb-3">
                 <h1 class="p-0 m-0">ReCharge</h1>
@@ -529,10 +527,29 @@
                     <span class="highlight">Single Parent Conference</span>
                   </span>
                 </h1>
+                <!-- <div class=" ">
+                  <p class="mt-2">
+                    <em
+                      >Register today to be a part of this powerful event. Your
+                      information will be kept private. Registering does not
+                      mean you sign up for email subscriptions.</em
+                    >
+                  </p>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="flex-container-2col">
+              <div class="flex-item-2col">
                 <h3>
                   <a
                     href="#friday"
-                    class="badge badge-primary p-2 px-3 filter-button"
+                    class="badge badge-primary p-2 px-3"
                     data-target="friday"
                     style="font-size: 24px"
                     >Day 1</a
@@ -558,6 +575,8 @@
                   ></i>
                   $25.00 per person (Two day pass)
                 </p>
+              </div>
+              <div class="flex-item-2col">
                 <h3 class="   ">
                   <span
                     class="badge badge-secondary p-2 px-3"
@@ -587,40 +606,41 @@
                 </p>
               </div>
             </div>
-            <div class="push visible-sm-block visible-xs-block">
-              <a
-                href="https://www.thewoodlandsmethodist.org/event?EventOccurrenceId=2203"
-                class="twmc--btn twmc--btn--map-conference2 font-weight-bold"
-                target="_blank"
-                style="background-color: (66, 255, 3, 0.3)"
-              >
-                BUY TICKETS ></a
-              >
-              <div class="mt-2">
-                <div>
-                  Register today to be a part of this powerful event. Your
-                  information will be kept private. Registering does not mean
-                  you sign up for email subscriptions.
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <div class="p-0 m-0 vh-0 container m-auto">
-        <img
-          src=" "
-          class="img-circle border-2"
-          style="position: relative; top: -90px; right: 30px"
-        />
-        <h3
-          class="pl-2 day-1 mx-5 rounded p-1"
-          style="position: relative; top: -224px"
-        >
-          Prizes & <br />Givaways
-        </h3>
-      </div>
     </section>
+
+    <div
+      class="p-0 m-0 background-lightgrey2 m-auto "
+      style="min-height: 90px; max-height: 90px"
+    >
+      <img
+        src=" "
+        class="img-circle border-2"
+        style="position: relative; right: 30px"
+      />
+      <div
+        class="pl-2 day-1 mx-5 rounded p-1"
+        style="position: relative; top: -152px"
+      >
+        <div class="d-flex justify-content-around  p-1 ">
+          <div class="font-italic pt-1 h4 p-2 vw-75 text-center ">
+            Register today to be a part of this powerful event.  
+          </div>
+        </div>
+        <div class="d-flex justify-content-around p-1">
+          <a
+            href="https://www.thewoodlandsmethodist.org/event?EventOccurrenceId=2203"
+            class="badge badge-primary p-2 px-3 filter-button "
+            target="_blank"
+            style="font-size: 14px"
+          >
+            BUY TICKETS
+          </a>
+        </div>
+      </div>
+    </div>
     <!-- End of Intro -->
 
     <!--  -->
@@ -628,11 +648,11 @@
     <section class="p-3">
       <div class="container">
         <div class="row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h2 class="twmc-h3 text-center px-3 pt-5" style="font-weight: 900">
+          <div class="col-sm-10 col-sm-offset-1 mt-5 pt-3">
+            <h2 class="twmc-h3 text-center px-3 mt-5" style="font-weight: 900">
               What should I expect?
             </h2>
-            <h3 class="text-center p-3 m-3">
+            <h3 class="text-center p-3 m-3 twmc-h3">
               As
               <span class="font-italic"
                 ><span class="highlight-container"
@@ -654,67 +674,70 @@
             </h3>
           </div>
         </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <section class="grid-3 pb-5">
+              <div class="     ">
+                <div>
+                  <h3 style="font-weight: 900">Learn</h3>
 
-        <section class="grid-3 pb-5">
-          <div class="     ">
-            <div>
-              <h3 style="font-weight: 900">Learn</h3>
-
-              <p>
-                Gain valuable insights from renowned speakers, mastering
-                essential skills and finding strength in faith.
-              </p>
-              <div
-                class="p-3 px-4 border-0 badge badge-primary"
-                style="
-                  background-color: #333;
-                  color: #e7fd39;
-                  font-weight: 700;
-                  font-size: 20px;
-                "
-              >
-                14+ Speakers
+                  <p>
+                    Gain valuable insights from renowned speakers, mastering
+                    essential skills and finding strength in faith.
+                  </p>
+                  <div
+                    class="p-3 px-4 border-0 badge badge-primary"
+                    style="
+                      background-color: #333;
+                      color: #e7fd39;
+                      font-weight: 700;
+                      font-size: 20px;
+                    "
+                  >
+                    14+ Speakers
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div>
-            <h3 style="font-weight: 900">Build</h3>
-            <p>
-              Discover practical tools and strategies to navigate various
-              challenges, enriching your single parenting journey.
-            </p>
-            <div
-              class="badge day-2 p-3 px-4 border-0"
-              style="
-                color: black;
-                background-color: #e7fd39;
+              <div>
+                <h3 style="font-weight: 900">Build</h3>
+                <p>
+                  Discover practical tools and strategies to navigate various
+                  challenges, enriching your single parenting journey.
+                </p>
+                <div
+                  class="badge day-2 p-3 px-4 border-0"
+                  style="
+                    color: black;
+                    background-color: #e7fd39;
 
-                font-weight: 700;
-                font-size: 20px;
-              "
-            >
-              8+ Sessions
-            </div>
+                    font-weight: 700;
+                    font-size: 20px;
+                  "
+                >
+                  8+ Sessions
+                </div>
+              </div>
+              <div>
+                <h3 style="font-weight: 900">Connect</h3>
+                <p>
+                  Foster supportive connections with fellow single parents,
+                  building a network of encouragement and shared experiences.
+                </p>
+                <div
+                  class="badge p-3 px-4"
+                  style="
+                    color: #e7fd39;
+                    background-color: #333;
+                    font-weight: 700;
+                    font-size: 20px;
+                  "
+                >
+                  300+ Attendees
+                </div>
+              </div>
+            </section>
           </div>
-          <div>
-            <h3 style="font-weight: 900">Connect</h3>
-            <p>
-              Foster supportive connections with fellow single parents, building
-              a network of encouragement and shared experiences.
-            </p>
-            <div
-              class="badge p-3 px-4"
-              style="
-                color: #e7fd39;
-                background-color: #333;
-                font-weight: 700;
-                font-size: 20px;
-              "
-            >
-              300+ Attendees
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
       <div class="vh-0" style="display: flex; flex-direction: row-reverse">
         <img
@@ -1268,8 +1291,8 @@
     <!-- end script for toggle function -->
 
     <!-- Breakouts section  -->
-    <section id="agenda" class=" "></section>
-    <section class="pt-4 pb-5">
+    <section id="agenda" class="  "></section>
+    <section class="mt-4 pb-5 bg-lightnight-repeat">
       <div class="vh-0" style="display: flex">
         <img
           src="https://s3.us-east-2.amazonaws.com/rockrms-assets/icons/hash.png"
@@ -1283,7 +1306,7 @@
           "
         />
       </div>
-      <div class="container">
+      <div class="container bg-lightning-repeat">
         <div class="row">
           <div class="col-sm-10 col-sm-offset-1">
             <h2 class="twmc-h3 text-center">Agenda</h2>
@@ -1300,7 +1323,7 @@
                   href="#"
                   class="twmc--btn filter-button day-2"
                   data-target="saturday"
-                  id="saturday-filter-btn"
+                  id="saturday-filter-btn "
                   >Saturday</a
                 >
               </p>
