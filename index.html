@@ -529,10 +529,7 @@
                     >
                   </span>
                 </h1>
-                <div class=" ">
-                  
-                  
-                </div>
+                <div class=" "></div>
               </div>
             </div>
           </div>
@@ -571,9 +568,9 @@
                     aria-hidden="true"
                   ></i>
                   Childcare Provided <br /><i
-                  class="fas fa-money-bill mr-2"
-                  aria-hidden="true"
-                ></i>
+                    class="fas fa-money-bill mr-2"
+                    aria-hidden="true"
+                  ></i>
                   $25.00 per parent (Two day pass)
                   <br /><i
                     class="fas fa-money-bill mr-2"
@@ -604,11 +601,8 @@
                   Harvest Worship Center <br /><i
                     class="fas fa-utensils mr-2"
                   ></i>
-                  Breakfast and Lunch Provided 
-                  <br /><i
-                    class="fas fa-child mr-2"
-                    aria-hidden="true"
-                  ></i>
+                  Breakfast and Lunch Provided
+                  <br /><i class="fas fa-child mr-2" aria-hidden="true"></i>
                   Childcare Provided<br /><i
                     class="fas fa-money-bill mr-2"
                     aria-hidden="true"
@@ -619,10 +613,7 @@
                     aria-hidden="true"
                   ></i>
                   $7.00 per child (Two day pass)
-                  <br /><i
-                    class="fas fa-gift mr-2"
-                    aria-hidden="true"
-                  ></i>
+                  <br /><i class="fas fa-gift mr-2" aria-hidden="true"></i>
                   Door Prizes
                 </p>
               </div>
@@ -989,7 +980,7 @@
                       Counselor at Magnolia Creek Counseling
                     </p>
                     <p class="day-2 mt-3 rounded p-1 text-xs">
-                      <strong> Topic:  Parenting with Love & Logic</strong>
+                      <strong> Topic: Parenting with Love & Logic</strong>
                     </p>
                     <!-- hidden bio -->
                     <div class="bio-container">
@@ -1065,6 +1056,7 @@
                           >Breakouts
                         </span>
                       </h3>
+
                       <h3>
                         <span class="twitter-icon-container">
                           <a
@@ -1102,72 +1094,71 @@
                         >Doug Garrison </strong
                       ><br />CFP at Cerity Partners
                     </p>
+                    <!-- modal start  -->
+                    <a
+                      href="#mapModalTraditional"
+                      data-toggle="modal"
+                      data-target="#mapModalTraditional"
+                      class=" day-2 mt-3 rounded p-1 text-xs"
+                      target="_blank"
+                      referrerpolicy="origin"
+                      >+ Personal Bio +</a
+                    >
+
+                    <div
+                      class="modal fade"
+                      id="mapModalTraditional"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="mapModalLabelTraditional"
+                    >
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">×</span>
+                            </button>
+                            <h3 class="twmc-h3" id="mapModalLabelTraditional">
+                              Doug Garrison
+                            </h3>
+                          </div>
+                          <div class="modal-body">
+                            <div class="text-sm">
+                              Doug Garrison is a native Texan who grew up in
+                              southeastern Illinois. He graduated from Yale
+                              University and received his MBA from the Wharton
+                              School at the University of Pennsylvania.
+                              Following graduate school, he joined Exxon, now
+                              ExxonMobil. His 31-year career with ExxonMobil
+                              included Human Resources (HR) assignments in
+                              several different locations, including assignments
+                              in Brazil, New Jersey, and Texas. Following
+                              retirement from ExxonMobil, Doug studied for and
+                              passed a qualifying exam required to obtain his
+                              Certified Financial Planner™ certification. His
+                              “encore career” has now lasted over 13 years and
+                              he is currently a partner in the Houston office of
+                              Cerity Partners, a nationally-recognized
+                              independent wealth management firm. Doug and his
+                              wife, Geni, have three daughters and have been
+                              members of The Woodlands Methodist Church since
+                              2003.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- modal end  -->
                     <p class="day-2 mt-3 rounded p-1 text-xs">
                       <strong> Topic: Financial Peace University</strong>
                     </p>
 
-                    <!-- hidden bio -->
-                    <div class="bio-container">
-                      <div class="btn twmc-p more lineheight-small text-xs">
-                        + more +
-                      </div>
-                      <div
-                        class="btn twmc-p less lineheight-small text-xs"
-                        style="display: none"
-                      >
-                        - less -
-                      </div>
-                      <div class="text-xs hidden-bio" style="display: none">
-                        Doug Garrison is a native Texan who grew up in
-                        southeastern Illinois. He graduated from Yale University
-                        and received his MBA from the Wharton School at the
-                        University of Pennsylvania. Following graduate school,
-                        he joined Exxon, now ExxonMobil. His 31-year career with
-                        ExxonMobil included Human Resources (HR) assignments in
-                        several different locations, including assignments in
-                        Brazil, New Jersey, and Texas. Following retirement from
-                        ExxonMobil, Doug studied for and passed a qualifying
-                        exam required to obtain his Certified Financial Planner™
-                        certification. His “encore career” has now lasted over
-                        13 years and he is currently a partner in the Houston
-                        office of Cerity Partners, a nationally-recognized
-                        independent wealth management firm. Doug and his wife,
-                        Geni, have three daughters and have been members of The
-                        Woodlands Methodist Church since 2003.
-                      </div>
-                    </div>
-
-                    <script>
-                      document.addEventListener(
-                        "DOMContentLoaded",
-                        function () {
-                          var bioContainers =
-                            document.querySelectorAll(".bio-container");
-
-                          bioContainers.forEach(function (container) {
-                            var moreButton = container.querySelector(".more");
-                            var lessButton = container.querySelector(".less");
-                            var hiddenBio =
-                              container.querySelector(".hidden-bio");
-
-                            // Add click event listener to the "more" button
-                            moreButton.addEventListener("click", function () {
-                              hiddenBio.style.display = "block"; // Show the hidden bio
-                              moreButton.style.display = "none"; // Hide the "more" button
-                              lessButton.style.display = "inline-block"; // Show the "less" button
-                            });
-
-                            // Add click event listener to the "less" button
-                            lessButton.addEventListener("click", function () {
-                              hiddenBio.style.display = "none"; // Hide the hidden bio
-                              moreButton.style.display = "inline-block"; // Show the "more" button
-                              lessButton.style.display = "none"; // Hide the "less" button
-                            });
-                          });
-                        }
-                      );
-                    </script>
-                    <!-- end hidden bio -->
+                     
                   </div>
 
                   <div
@@ -1206,7 +1197,8 @@
                         style="font-weight: 900"
                         >Gina Price</strong
                       >
-                      <br />Wills and Estate Planning <br/> Price & Price
+                      <br />Wills and Estate Planning <br />
+                      Price & Price
                     </p>
                     <p class="day-2 mt-3 rounded p-1 text-xs">
                       <strong> Topic: Wills and Estate Planning</strong>
