@@ -357,8 +357,29 @@ h6 {
   grid-template-columns: 1fr 2fr;
 }
 
+._grid-1x3-promo {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+@media (max-width: 992px) {
+  
+  
+  ._grid-1x3-promo {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 @media (max-width: 576px) {
   ._grid-1x3 {
+    grid-template-columns: 1fr;
+  }
+  
+  ._grid-1x3-promo {
     grid-template-columns: 1fr;
   }
 }
@@ -618,7 +639,7 @@ border-top: 3px solid #333 !important;
 }
 
 .bg-lightning-repeat{
-  background-image: url(../public/Bolt_Faded.svg);
+  background-image: url(https://rockrms-assets.s3.us-east-2.amazonaws.com/images/_seasonal/Bolt_Faded_big_e2.svg);
   background-repeat: repeat;
   background-size: auto;   
   min-width: 100%;
@@ -631,3 +652,12 @@ border-top: 3px solid #333 !important;
 /* .opacity-light {
   opacity: 0.5;  
 } */
+
+.vh-20 {
+  min-height: 20vh;
+}
+
+.promo-block {
+  background-color: var(--text-black);
+  color: white;
+}
