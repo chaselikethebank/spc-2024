@@ -620,10 +620,14 @@ border-top: 3px solid #333 !important;
 .bg-lightning-repeat{
   background-image: url(../public/Bolt_Faded.svg);
   background-repeat: repeat;
-  background-size: auto;  /* Adjust this based on your pattern image size */
+  background-size: auto;   
+  min-width: 100%;
 }
 
 #saturday-filter-btn:active, #saturday-filter-btn:focus, #saturday-filter-btn:hover {
   color: var(--lime-500) !important;
 }
 
+/* .opacity-light {
+  opacity: 0.5;  
+} */
