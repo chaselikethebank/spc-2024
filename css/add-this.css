@@ -249,8 +249,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(360deg, var(--lemon-500), white),
-    linear-gradient(to right, #6b59e9, white, #6b59e9),
+  background: linear-gradient(360deg, var(--lemon-400), white),
     linear-gradient(to bottom, white, white, white);
 }
 
