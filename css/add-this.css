@@ -670,3 +670,12 @@ border-top: 3px solid #333 !important;
  .btn-promo:hover{
   background-color: var(--black-900) !important;
  }
+
+ .center-all {
+  /* everything to center child  */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
