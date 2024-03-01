@@ -667,4 +667,6 @@ border-top: 3px solid #333 !important;
   text-decoration: underline;
 }
 
- 
+ .btn-promo:hover{
+  background-color: var(--black-900) !important;
+ }
