@@ -661,3 +661,10 @@ border-top: 3px solid #333 !important;
   background-color: var(--text-black);
   color: white;
 }
+
+.btn-simple-link {
+  color: #333;
+  text-decoration: underline;
+}
+
+ 
