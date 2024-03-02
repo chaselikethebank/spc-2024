@@ -679,3 +679,20 @@ border-top: 3px solid #333 !important;
   align-items: center;
 
 }
+
+/* Badge invisible */
+.badge-invisible {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: transparent;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
